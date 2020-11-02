@@ -10,7 +10,7 @@ Images are stored on https://marylark.imgur.com/all.  In implementing product up
 
 The following details the database model used in the CF - Riders website.  This model will accommodate for Users registering, voting, and viewing products and product detail pages.
 
-![DB Model](/images/dbModel.png)
+![DB Model](./images/dbModel.png)
 
 ```
 Table Products {
