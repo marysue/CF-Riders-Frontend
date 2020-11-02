@@ -2,11 +2,11 @@
 
 # Technical Documentation
 
-##Images
+## Images
 
 Images are stored on https://marylark.imgur.com/all.  In implementing product uploads, I would have to open up a public directory on the backend for uploads, as well as provide endpoints to the uploads.  Due to time limitations and implementation details, I've chosen to use imgur to host images.  I simply reference the imgur direct URL for the images in the front-end.
 
-##Database Model
+## Database Model
 
 The following details the database model used in the CF - Riders website.  This model will accommodate for Users registering, voting, and viewing products and product detail pages.
 
