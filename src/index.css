@@ -1,0 +1,300 @@
+/* TODO Add site wide styles */
+/* Material UI styles for icons */
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: grey;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+  body {
+    font-family: Arial;
+  }
+  .MuiSvgIcon-colorPrimary colorPrimary {
+    color: #148ECE;
+  }
+  .logoFont {
+    display: inline-block;
+    font-family: 'Fondamento', cursive;
+    font-size: 40px;
+    color: #148ECE;
+  }
+
+  .navSearchBar {
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin: 20px;
+    border-color: grey;
+    padding-left: 20px;
+  }
+
+  main {
+      margin: 20px;
+  }
+
+  a.signInLink {
+      margin-left: 20px;
+      margin-right: 20px;
+      text-decoration: none;
+      color:  #148ECE;
+      outline: none;
+  }
+  a:hover {
+      color: gray;
+      cursor: pointer;
+  }
+  .main-profile-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .avatar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .avatar {
+    /* width: 60px;
+    height: 60px; */
+    border-radius: 40px;
+    /* opacity: 0.7; */
+    object-fit: contain;
+
+  }
+  .topBar {
+      display: flex;
+      flex-direction: row;
+      align-content: space-evenly;
+      align-items: center;
+      margin-left: 100px;
+      margin-right: 100px;
+  }
+
+  .signInButton {
+      background-color: white;
+      border-color: white;
+      margin-left: 20px;
+      margin-right: 20px;
+      border: white;
+      color: #148ECE;
+  }
+  .signInButton:hover {
+      cursor: pointer;
+  }
+
+
+  img.avatar {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+  }
+
+  .avatarName {
+    font-family: 'Arial';
+    color: #148ECE;
+  }
+
+  .loginForm {
+    font-family: 'Arial';
+    color: #148ECE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    width: 425px;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+
+  .loginInput {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+  }
+
+  .inputBox {
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    outline: none;
+    padding-left: 10px;
+  }
+
+  button {
+    margin-top: 40px;
+    height: 30px;
+    width: 80px;
+    background-color: #148ECE;
+    border-radius: 20px;
+    color: white;
+  }
+
+  .homeIcon:hover {
+    cursor: pointer;
+  }
+
+  .productBanner {
+    display: flex;
+    background-color: #148ECE;
+    height: 200px;
+    width: 100%;
+    align-content: space-between;
+    justify-content: center;
+  }
+
+  .photoSpread {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    align-content: space-between;
+  }
+  .productPhoto {
+    border-radius: 80px;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+  }
+
+  .productItem {
+   background-color: rgba(255,255,255, 0.8);
+   border: 1px solid rgba(0, 0, 0, 0.8);
+   padding: 20px;
+   font-size: 30px;
+   text-align: center;
+   width: 200px;
+   height: 200px;
+  }
+
+  img.productItem {
+    width: 100%;
+    height: 100%;
+  }
+  .productGrid {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  img {
+    object-fit: contain;
+    height: 75%;
+    width: 75%;
+  }
+
+  .productPhoto  > img  {
+    height: 100%;
+    width: 100%;
+    border-radius: 80px;
+    cursor: pointer;
+  }
+
+  figcaption {
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .productItem > figcaption {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    margin-top: -5px;
+  }
+
+  .loginOrSignUp {
+    display: inline-grid;
+    width: 40%;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .loginOrSignUp > button {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+
+  .centerDiv {
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    justify-content: space-around;
+  }
+
+  .signUpForm {
+    display: grid;
+    grid-column: auto auto;
+    grid-row: 4;
+  }
+  .inputDiv {
+    display: block;
+    padding: 10px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 40px;
+    color: #2196F3;
+    justify-items: center;
+  }
+
+.signUpForm {
+  font-family: 'Arial';
+  color: #148ECE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  width: 425px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.signUpInput {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+.price {
+  font-size: small;
+  margin-top: 5px;
+}
